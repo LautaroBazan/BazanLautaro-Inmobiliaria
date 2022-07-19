@@ -54,9 +54,10 @@
     text-transform: uppercase;
     text-align: center;
 
-
+    animation-name: color;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
 }
-
 
 
 .letraContactanos{
@@ -69,6 +70,7 @@
     animation-iteration-count: infinite;
 
 }
+
 
 
 
@@ -141,9 +143,9 @@
     margin: 46px 11px 121px 11px;
 }
 .footer__fondo{
-    background-color: black;
     height: 184px;
     width: 1512px;
+    background-color: black;
 }
 .footer__colorLetra{
     color: aliceblue;
